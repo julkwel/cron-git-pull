@@ -6,7 +6,7 @@
   CONFLICTS=$(git ls-files -u | wc -l)
   repo= repository 
   cd $repo
-  ${difference}
+  exec difference
   if ["$difference" -gt 0]
     then
       do anything
