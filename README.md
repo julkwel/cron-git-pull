@@ -13,7 +13,7 @@ I want to execute my script automatically
 
 add this line , it's execute your script in 1minutes.
 
-*/1 * * * * your script command here >> /root/log/cron.log
+*/1 * * * * pull.sh >> /root/log/cron.log
 
 **Happy hacking**
 
