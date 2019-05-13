@@ -13,7 +13,7 @@ I want to execute my script automatically
 
 add this line , it's execute your script in 1minutes.
 
-*/1 * * * * pull.sh >> /eto/le/tiana/asiana/log.log
+*/1 * * * * pull.sh >> /your_path/log.log
 
 **Happy hacking**
 
